@@ -1,0 +1,14 @@
+{
+  "Title": "Blacksmithing in a Dungeon",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "blacksmithing_in_a_dungeon",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {}
+}
