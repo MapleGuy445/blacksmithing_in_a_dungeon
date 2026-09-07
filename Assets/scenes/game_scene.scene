@@ -79,6 +79,24 @@
       "Children": []
     },
     {
+      "__guid": "0bef9811-7c91-4759-9087-b360a0270907",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Spawnpoint",
+      "Position": "63.4019737,0.497802734,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
+    },
+    {
       "__guid": "21c20ac1-cb91-4e7d-aaa2-34aea9fcf114",
       "__version": 2,
       "Flags": 0,
@@ -160,7 +178,3189 @@
       "__version": 2,
       "__Prefab": "player.prefab",
       "__PrefabInstancePatch": {
-        "AddedObjects": [],
+        "AddedObjects": [
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "8421bd00-c3d3-4cd2-9799-758271bacc2c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
+            },
+            "PreviousElement": {
+              "Type": "Component",
+              "IdValue": "0920ff4d-cd10-4a8f-9bf4-78e5f2d93f9e"
+            },
+            "ContainerProperty": "Components",
+            "IsContainerArray": true,
+            "Data": {
+              "__type": "Sandbox.Citizen.CitizenAnimationHelper",
+              "__guid": "8421bd00-c3d3-4cd2-9799-758271bacc2c",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyWeight": 1,
+              "EyeSource": null,
+              "EyesWeight": 1,
+              "HeadWeight": 1,
+              "Height": null,
+              "IkLeftFoot": null,
+              "IkLeftHand": null,
+              "IkRightFoot": null,
+              "IkRightHand": null,
+              "LookAt": null,
+              "LookAtEnabled": false,
+              "LookAtEyes": null,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Sitting": "None",
+              "SittingOffsetHeight": 0,
+              "SpecialMove": "None",
+              "Target": {
+                "_type": "component",
+                "component_id": "15013315-8d33-4b86-a619-95f9ae6c159c",
+                "go": "940e08ab-0db8-4ffc-9de0-59b1bebd978c",
+                "component_type": "SkinnedModelRenderer"
+              }
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "47b38071-0c26-49e2-9747-ff32e5cde2f0"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
+            },
+            "PreviousElement": {
+              "Type": "Component",
+              "IdValue": "96676f34-b2e0-4a87-9328-55d9908dffbe"
+            },
+            "ContainerProperty": "Components",
+            "IsContainerArray": true,
+            "Data": {
+              "__type": "BlacksmithController",
+              "__guid": "47b38071-0c26-49e2-9747-ff32e5cde2f0",
+              "__enabled": true,
+              "Flags": 0,
+              "Body": {
+                "_type": "gameobject",
+                "go": "940e08ab-0db8-4ffc-9de0-59b1bebd978c"
+              },
+              "HoldRelative": {
+                "_type": "gameobject",
+                "go": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+              },
+              "HoldRotationTarget": {
+                "_type": "gameobject",
+                "go": "69872a48-21ca-42a5-9ca5-7da33816581d"
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "940e08ab-0db8-4ffc-9de0-59b1bebd978c"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "pelvis",
+              "Position": "1.12266576,0.00726733869,30.8176804",
+              "Rotation": "-0.463455737,-0.52347225,-0.534098685,0.475314677",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "6e475d43-a2db-4c72-a681-39e9a31506d1"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "6e475d43-a2db-4c72-a681-39e9a31506d1",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "spine_0",
+              "Position": "3.92184639,-0.00245189667,-0.000137329102",
+              "Rotation": "-0.000447839499,0.00387206674,-0.0264070034,-0.999643803",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "55d04fb1-858a-4e17-a75b-050cbd03bc40"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "6e475d43-a2db-4c72-a681-39e9a31506d1"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "55d04fb1-858a-4e17-a75b-050cbd03bc40",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "spine_1",
+              "Position": "5.61042786,-3.81469727E-06,7.2479248E-05",
+              "Rotation": "-3.41832638E-05,0.00655326247,-0.0445939898,-0.998983741",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "69872a48-21ca-42a5-9ca5-7da33816581d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "55d04fb1-858a-4e17-a75b-050cbd03bc40"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "69872a48-21ca-42a5-9ca5-7da33816581d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "spine_2",
+              "Position": "5.61040497,0,9.15527344E-05",
+              "Rotation": "-0.000273942947,0.00170552731,-0.00999322534,-0.99994868",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a693c68f-8a63-4f77-9c4c-b490722e9c8f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "69872a48-21ca-42a5-9ca5-7da33816581d"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a693c68f-8a63-4f77-9c4c-b490722e9c8f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "neck_0",
+              "Position": "5.82001877,-0.0934906006,-0.0029296875",
+              "Rotation": "3.42726707E-05,-0.000215485692,0.00907836854,-0.999959052",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a693c68f-8a63-4f77-9c4c-b490722e9c8f"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "8f364ed4-ea93-45aa-bc39-86343c025263",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "head",
+              "Position": "4.5108223,-0.000768661499,3.05175781E-05",
+              "Rotation": "-7.55488873E-06,-8.94069672E-08,0.0109516084,-0.999940276",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2b4da95c-fc71-4def-b141-fdf7f1f04dd7"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2b4da95c-fc71-4def-b141-fdf7f1f04dd7",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ear_R",
+              "Position": "5.62155151,-0.415433884,-5.92923737",
+              "Rotation": "0.0462282449,-0.693500161,0.137905538,-0.705622256",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "27d4a8f5-a08f-4b1a-89ff-c2b90606ce18"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "2b4da95c-fc71-4def-b141-fdf7f1f04dd7"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "27d4a8f5-a08f-4b1a-89ff-c2b90606ce18",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ear_L",
+              "Position": "5.6215744,-0.415517807,5.92900085",
+              "Rotation": "0.705614388,-0.137948975,0.693499923,-0.0462260842",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "8b7aa389-1d1f-4f56-9d26-8d853cacad88"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "27d4a8f5-a08f-4b1a-89ff-c2b90606ce18"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "8b7aa389-1d1f-4f56-9d26-8d853cacad88",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "face_lid_lower_R",
+              "Position": "6.90882111,5.14048004,-3.23449326",
+              "Rotation": "-0.129229963,0.981805265,-0.137948796,-0.0181292593",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "82304f2c-cbc3-4ee5-9070-199c85e59304"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "8b7aa389-1d1f-4f56-9d26-8d853cacad88"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "82304f2c-cbc3-4ee5-9070-199c85e59304",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "face_lid_lower_L",
+              "Position": "6.90880203,5.14046288,3.23478317",
+              "Rotation": "-0.129229963,0.981805384,0.137949094,0.0181279927",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3bedbd70-a241-4d00-96e8-2ad3e71dc046"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "82304f2c-cbc3-4ee5-9070-199c85e59304"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3bedbd70-a241-4d00-96e8-2ad3e71dc046",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "face_lid_upper_L",
+              "Position": "6.90880203,5.14046288,3.23478317",
+              "Rotation": "0.981805444,0.129229963,0.0181284696,-0.137948975",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "7202f79b-482d-4d14-ae34-aec2f15404da"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "3bedbd70-a241-4d00-96e8-2ad3e71dc046"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "7202f79b-482d-4d14-ae34-aec2f15404da",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "face_lid_upper_R",
+              "Position": "6.90882111,5.14048004,-3.23449326",
+              "Rotation": "0.981805205,0.129230052,-0.0181285441,0.13794896",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d078efe7-aa8b-4c96-8b5e-013a798d66bc"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "7202f79b-482d-4d14-ae34-aec2f15404da"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "d078efe7-aa8b-4c96-8b5e-013a798d66bc",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "eye_L",
+              "Position": "6.90885162,5.14047241,3.23471832",
+              "Rotation": "0.716399252,0.697602272,-0.0079754591,0.00785845052",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "50310044-bbf2-47af-b7e2-e8a960940f98"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8f364ed4-ea93-45aa-bc39-86343c025263"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "d078efe7-aa8b-4c96-8b5e-013a798d66bc"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "50310044-bbf2-47af-b7e2-e8a960940f98",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "eye_R",
+              "Position": "6.90887833,5.14048004,-3.23457336",
+              "Rotation": "0.716399252,0.697602272,-0.0079754591,0.00785845052",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "33b31bf5-004c-4bb1-ae55-799e408fae21"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "69872a48-21ca-42a5-9ca5-7da33816581d"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "a693c68f-8a63-4f77-9c4c-b490722e9c8f"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "33b31bf5-004c-4bb1-ae55-799e408fae21",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "clavicle_L",
+              "Position": "4.03808975,0.275209427,1.10401154",
+              "Rotation": "-0.0836835802,0.661007941,0.0848220289,-0.740858555",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "117e9663-9e23-45c7-b5dd-5003d26d18b1"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "33b31bf5-004c-4bb1-ae55-799e408fae21"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "117e9663-9e23-45c7-b5dd-5003d26d18b1",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_L",
+              "Position": "6.21832991,4.529953E-06,6.86645508E-05",
+              "Rotation": "-0.0699829161,0.654184997,-0.00940965023,-0.753031373",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "6a068858-b5fd-48ba-88e6-096bb5dfc833"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "117e9663-9e23-45c7-b5dd-5003d26d18b1"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "6a068858-b5fd-48ba-88e6-096bb5dfc833",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_L_twist1",
+              "Position": "5.02275085,-3.24249268E-05,9.15527344E-05",
+              "Rotation": "0.00927296281,-1.49011612E-08,1.49011612E-08,-0.999957144",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "117e9663-9e23-45c7-b5dd-5003d26d18b1"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "6a068858-b5fd-48ba-88e6-096bb5dfc833"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "aff812e5-14c9-484f-9c5b-8be1c659da79",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_L",
+              "Position": "10.0452042,-1.33514404E-05,1.90734863E-05",
+              "Rotation": "1.49011612E-08,2.98023224E-08,-0.165484324,-0.98621273",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "5ca4664b-6d2b-4dbf-915e-7cb3acd6493d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "5ca4664b-6d2b-4dbf-915e-7cb3acd6493d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_L_twist0",
+              "Position": "-3.43322754E-05,-1.33514404E-05,-0.000186920166",
+              "Rotation": "-3.27825546E-07,-7.4505806E-07,-2.5331974E-07,-1.00000012",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "5ca4664b-6d2b-4dbf-915e-7cb3acd6493d"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "0a01524f-3da1-456a-b0ab-aadab27e98f4",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_L",
+              "Position": "7.70664215,-1.90734863E-06,-2.67028809E-05",
+              "Rotation": "0.0267175436,-0.0490768254,0.0417814255,-0.997563064",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3eb567a2-b039-4987-ae58-b7a33b2d5445"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3eb567a2-b039-4987-ae58-b7a33b2d5445",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hold_L",
+              "Position": "5.36112213,0.62169838,3.39440536",
+              "Rotation": "0.69593811,0.170407534,0.392869562,-0.576441526",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3bde2cbc-dae5-4adb-8faa-377c33855a51"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "3eb567a2-b039-4987-ae58-b7a33b2d5445"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3bde2cbc-dae5-4adb-8faa-377c33855a51",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_R_to_L_ikrule",
+              "Position": "-7.97639465,-3.15516615,21.233984",
+              "Rotation": "-0.139275357,0.348286748,-0.0025446713,-0.926980436",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "c483d87f-741c-43dd-8d15-e8345dbfb746"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "3bde2cbc-dae5-4adb-8faa-377c33855a51"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "c483d87f-741c-43dd-8d15-e8345dbfb746",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_0_L",
+              "Position": "1.12792206,1.6484375,0.866693497",
+              "Rotation": "-0.568413436,-0.121676475,-0.411688596,-0.701864243",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "52c82769-977a-42b2-90e9-8325d00fe3ca"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c483d87f-741c-43dd-8d15-e8345dbfb746"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "52c82769-977a-42b2-90e9-8325d00fe3ca",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_1_L",
+              "Position": "1.90624237,1.33514404E-05,-3.05175781E-05",
+              "Rotation": "-9.31322575E-10,0.162724525,-3.7252903E-09,-0.986671507",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "da8c8325-8973-4a50-8fc3-9f0bbe29a829"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "52c82769-977a-42b2-90e9-8325d00fe3ca"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "da8c8325-8973-4a50-8fc3-9f0bbe29a829",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_2_L",
+              "Position": "2.13633919,9.53674316E-06,0",
+              "Rotation": "-1.67638063E-08,0.0841680467,-1.34110451E-07,-0.996451735",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "77ec2ac0-9173-4ffa-b724-f081908bcc7b"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "c483d87f-741c-43dd-8d15-e8345dbfb746"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "77ec2ac0-9173-4ffa-b724-f081908bcc7b",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_meta_L",
+              "Position": "2.07529068,1.20409966,0.377567291",
+              "Rotation": "-0.0603419393,-0.0457959175,-0.104886189,-0.99159497",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "612b6f02-bd45-4bb3-84e4-ae0422647375"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "77ec2ac0-9173-4ffa-b724-f081908bcc7b"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "612b6f02-bd45-4bb3-84e4-ae0422647375",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_0_L",
+              "Position": "3.068367,3.81469727E-06,5.14984131E-05",
+              "Rotation": "0.00336672366,0.265237004,0.0685859174,-0.961735249",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3380714e-847a-48a3-8205-914efb0d0921"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "612b6f02-bd45-4bb3-84e4-ae0422647375"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3380714e-847a-48a3-8205-914efb0d0921",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_1_L",
+              "Position": "2.28321457,3.81469727E-05,3.43322754E-05",
+              "Rotation": "-4.47034836E-08,0.233512253,-2.08616257E-07,-0.972354293",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "595b7439-6376-493b-88fc-7b434eca4114"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "3380714e-847a-48a3-8205-914efb0d0921"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "595b7439-6376-493b-88fc-7b434eca4114",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_2_L",
+              "Position": "1.59376717,1.90734863E-06,-7.62939453E-06",
+              "Rotation": "-2.68220901E-07,0.013726756,-6.2584877E-07,-0.999906242",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "16fa8e42-9dbf-4ab0-8df1-429e7844ba2f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "77ec2ac0-9173-4ffa-b724-f081908bcc7b"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "16fa8e42-9dbf-4ab0-8df1-429e7844ba2f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_meta_L",
+              "Position": "2.1006813,-0.159065247,0.285896301",
+              "Rotation": "-0.00893479586,-0.0348326266,0.0193370283,-0.999166071",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "63f389cb-1c7e-4abf-9ea1-9ea0b61e0cb8"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "16fa8e42-9dbf-4ab0-8df1-429e7844ba2f"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "63f389cb-1c7e-4abf-9ea1-9ea0b61e0cb8",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_0_L",
+              "Position": "2.99924088,-5.7220459E-06,2.47955322E-05",
+              "Rotation": "-0.000863224268,0.233468696,-0.0012948662,-0.972363114",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a05e57e9-7619-4e59-b394-ba2771b43956"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "63f389cb-1c7e-4abf-9ea1-9ea0b61e0cb8"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a05e57e9-7619-4e59-b394-ba2771b43956",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_1_L",
+              "Position": "2.5605526,3.43322754E-05,0",
+              "Rotation": "-1.63912773E-07,0.232260823,-5.36441803E-07,-0.972653747",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "39b11858-b066-4699-bc3c-ae9aa272d1c1"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a05e57e9-7619-4e59-b394-ba2771b43956"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "39b11858-b066-4699-bc3c-ae9aa272d1c1",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_2_L",
+              "Position": "1.68262672,3.81469727E-06,-4.38690186E-05",
+              "Rotation": "-3.57627869E-07,0.048214063,-6.55651093E-07,-0.998837233",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a77b7853-bf87-4ec4-a6fd-f17879692ed9"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "16fa8e42-9dbf-4ab0-8df1-429e7844ba2f"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a77b7853-bf87-4ec4-a6fd-f17879692ed9",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_meta_L",
+              "Position": "2.10489273,-1.44450569,0.223308563",
+              "Rotation": "0.063751772,0.029178232,0.130654454,-0.988945782",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "90f4273e-70c5-4a7f-8adb-7176905c6777"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a77b7853-bf87-4ec4-a6fd-f17879692ed9"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "90f4273e-70c5-4a7f-8adb-7176905c6777",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_0_L",
+              "Position": "2.82421112,-7.62939453E-06,-2.0980835E-05",
+              "Rotation": "-0.00448893011,0.185557753,-0.0561982095,-0.981014729",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "7df4c2a2-f45c-498c-a02c-5b51f5493d61"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "90f4273e-70c5-4a7f-8adb-7176905c6777"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "7df4c2a2-f45c-498c-a02c-5b51f5493d61",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_1_L",
+              "Position": "2.19726562,2.47955322E-05,1.52587891E-05",
+              "Rotation": "4.33027744E-05,0.256603539,4.36902046E-05,-0.966516733",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "41f86a6a-e502-43f5-aa32-f96a18d1cd9c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "7df4c2a2-f45c-498c-a02c-5b51f5493d61"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "41f86a6a-e502-43f5-aa32-f96a18d1cd9c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_2_L",
+              "Position": "1.53515244,9.53674316E-06,-3.05175781E-05",
+              "Rotation": "2.38418579E-07,-0.0503720492,3.87430191E-07,0.99873054",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "fe0223b2-ff1e-407c-a4e2-65905eaeaaa5"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "0a01524f-3da1-456a-b0ab-aadab27e98f4"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "fe0223b2-ff1e-407c-a4e2-65905eaeaaa5",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_L_twist1",
+              "Position": "3.85343933,-4.95910645E-05,4.57763672E-05",
+              "Rotation": "0.0174047053,-2.98023224E-08,-1.49011612E-08,-0.999848604",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "6866e73b-ab38-48c9-ba76-4b91e3ad766c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "fe0223b2-ff1e-407c-a4e2-65905eaeaaa5"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "6866e73b-ab38-48c9-ba76-4b91e3ad766c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_elbow_helper_L",
+              "Position": "-7.62939453E-06,-0.00402832031,-0.000526428223",
+              "Rotation": "0.00241628289,0.00216846354,0.762972236,-0.646423459",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2159e06d-db74-406d-9f24-982317b82d49"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "117e9663-9e23-45c7-b5dd-5003d26d18b1"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "aff812e5-14c9-484f-9c5b-8be1c659da79"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2159e06d-db74-406d-9f24-982317b82d49",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_L_twist0",
+              "Position": "-1.52587891E-05,1.90734863E-06,-6.86645508E-05",
+              "Rotation": "0.0601983219,4.47034836E-08,-2.98023224E-08,-0.998186588",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "ffd18016-3bd4-4387-95a7-640d3132317d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "69872a48-21ca-42a5-9ca5-7da33816581d"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "33b31bf5-004c-4bb1-ae55-799e408fae21"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "ffd18016-3bd4-4387-95a7-640d3132317d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "clavicle_R",
+              "Position": "4.03697968,0.274869919,-1.10811996",
+              "Rotation": "0.083814308,-0.661362588,0.0848615468,-0.740522623",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "39f0f036-a8d6-4b41-bc29-da0f09bd772e"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "ffd18016-3bd4-4387-95a7-640d3132317d"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "39f0f036-a8d6-4b41-bc29-da0f09bd772e",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_R",
+              "Position": "6.21832228,1.40666962E-05,-1.90734863E-05",
+              "Rotation": "0.070681721,-0.656088531,-0.00569534302,-0.751345515",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "39f0f036-a8d6-4b41-bc29-da0f09bd772e"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_R",
+              "Position": "10.0452347,1.23977661E-05,-1.14440918E-05",
+              "Rotation": "2.98023224E-08,-2.98023224E-08,-0.165484339,-0.98621285",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "98044949-287a-468a-aaec-034fab3abfd4"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "98044949-287a-468a-aaec-034fab3abfd4",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_R_twist0",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "4429fa07-060d-46bb-903c-d88f4c90b25c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "98044949-287a-468a-aaec-034fab3abfd4"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "4429fa07-060d-46bb-903c-d88f4c90b25c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_elbow_helper_R",
+              "Position": "1.90734863E-05,-0.00400876999,0.000415802002",
+              "Rotation": "0.00152644515,0.00112938695,0.76292038,-0.646489739",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "98044949-287a-468a-aaec-034fab3abfd4"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_R",
+              "Position": "7.70667267,-4.29153442E-06,3.81469727E-06",
+              "Rotation": "-0.0267171562,0.0490765274,0.0417815745,-0.997563362",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "b1e54288-7880-4a8f-b82a-085dc0602850"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "b1e54288-7880-4a8f-b82a-085dc0602850",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hold_R",
+              "Position": "5.3610611,0.621813774,-3.39443207",
+              "Rotation": "0.576440036,-0.392869174,-0.170408949,-0.695939481",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "9e8a43aa-7e48-46cf-98c5-54cf849aedd1"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "b1e54288-7880-4a8f-b82a-085dc0602850"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "9e8a43aa-7e48-46cf-98c5-54cf849aedd1",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_L_to_R_ikrule",
+              "Position": "-8.07912064,-3.15717983,-21.2003593",
+              "Rotation": "0.139883965,-0.349942893,-0.00020134449,-0.926268399",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a2f919c2-e707-4e99-be59-bd920eacb531"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "9e8a43aa-7e48-46cf-98c5-54cf849aedd1"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a2f919c2-e707-4e99-be59-bd920eacb531",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_0_R",
+              "Position": "1.12792587,1.64844131,-0.866706848",
+              "Rotation": "-0.568412304,-0.121675685,0.41168794,0.70186609",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "56d5c70d-3d65-448f-92af-5d1e47b08eba"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a2f919c2-e707-4e99-be59-bd920eacb531"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "56d5c70d-3d65-448f-92af-5d1e47b08eba",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_1_R",
+              "Position": "1.90625381,-1.14440918E-05,-1.52587891E-05",
+              "Rotation": "-1.3038516E-08,0.162725821,-1.3038516E-07,0.986671746",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "039a2fc8-b01a-4e72-95e5-72e872adb7fd"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "56d5c70d-3d65-448f-92af-5d1e47b08eba"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "039a2fc8-b01a-4e72-95e5-72e872adb7fd",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_thumb_2_R",
+              "Position": "2.13636208,9.05990601E-06,-2.28881836E-05",
+              "Rotation": "9.31322575E-09,0.0841691643,-1.2293458E-07,0.996451914",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "4d58750c-3435-4786-8e56-2d9c4d736e5d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "a2f919c2-e707-4e99-be59-bd920eacb531"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "4d58750c-3435-4786-8e56-2d9c4d736e5d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_meta_R",
+              "Position": "2.07529449,1.20410204,-0.377563477",
+              "Rotation": "0.0603424758,0.0457962751,-0.104887009,-0.991595149",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "f2d964b7-0d0e-4047-b804-62213096add5"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "4d58750c-3435-4786-8e56-2d9c4d736e5d"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "f2d964b7-0d0e-4047-b804-62213096add5",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_0_R",
+              "Position": "3.06837845,-1.57356262E-05,1.90734863E-05",
+              "Rotation": "-0.00336673856,-0.265193939,0.0685866177,-0.961747289",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "f054afba-799a-4b2f-8f46-0db6ce25580d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "f2d964b7-0d0e-4047-b804-62213096add5"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "f054afba-799a-4b2f-8f46-0db6ce25580d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_1_R",
+              "Position": "2.28318405,-1.62124634E-05,-9.53674316E-06",
+              "Rotation": "0,-0.233511865,0,-0.972353876",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "4cdb5a75-32a4-4194-b085-e67a06b717cc"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "f054afba-799a-4b2f-8f46-0db6ce25580d"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "4cdb5a75-32a4-4194-b085-e67a06b717cc",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_index_2_R",
+              "Position": "1.59378242,-1.1920929E-05,-2.0980835E-05",
+              "Rotation": "-2.23517418E-07,-0.013726756,6.10947609E-07,-0.99990654",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3705b6c8-4870-422b-b3b5-d7915e52c0c3"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "4d58750c-3435-4786-8e56-2d9c4d736e5d"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3705b6c8-4870-422b-b3b5-d7915e52c0c3",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_meta_R",
+              "Position": "2.10067368,-0.159081936,-0.285892487",
+              "Rotation": "0.00893437862,0.0348332524,0.0193370879,-0.999166429",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "4a6d8859-998b-4515-9217-95c9dc82804a"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "3705b6c8-4870-422b-b3b5-d7915e52c0c3"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "4a6d8859-998b-4515-9217-95c9dc82804a",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_0_R",
+              "Position": "2.99923134,3.09944153E-06,2.86102295E-05",
+              "Rotation": "0.000863343477,-0.233469054,-0.00129434466,-0.972363472",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "290ec26c-eadc-476a-bdf3-e7b7aee88460"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "4a6d8859-998b-4515-9217-95c9dc82804a"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "290ec26c-eadc-476a-bdf3-e7b7aee88460",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_1_R",
+              "Position": "2.5605526,-2.81333923E-05,-3.81469727E-06",
+              "Rotation": "0,-0.232260272,-2.98023224E-08,-0.972654164",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "aa10efb3-6092-4beb-9780-5ad821b3032b"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "290ec26c-eadc-476a-bdf3-e7b7aee88460"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "aa10efb3-6092-4beb-9780-5ad821b3032b",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_middle_2_R",
+              "Position": "1.68263626,-1.52587891E-05,-4.76837158E-05",
+              "Rotation": "-2.98023224E-07,-0.0482138991,6.1839819E-07,-0.998837471",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "7c46b138-a09d-4a76-b0e9-18d9c32d79aa"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "3705b6c8-4870-422b-b3b5-d7915e52c0c3"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "7c46b138-a09d-4a76-b0e9-18d9c32d79aa",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_meta_R",
+              "Position": "2.10487938,-1.44451046,-0.223299026",
+              "Rotation": "-0.0637521744,-0.0291782916,0.130654752,-0.98894608",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "c29833a8-c501-46e3-b8f4-73e3b49b6afb"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "7c46b138-a09d-4a76-b0e9-18d9c32d79aa"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "c29833a8-c501-46e3-b8f4-73e3b49b6afb",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_0_R",
+              "Position": "2.82422829,-2.86102295E-06,3.24249268E-05",
+              "Rotation": "0.00453212857,-0.185514838,-0.0561982244,-0.981023073",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "f8e5189d-4254-4900-9700-e45d91ef854c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c29833a8-c501-46e3-b8f4-73e3b49b6afb"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "f8e5189d-4254-4900-9700-e45d91ef854c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_1_R",
+              "Position": "2.1972847,-3.48091125E-05,-3.81469727E-06",
+              "Rotation": "-4.31239605E-05,-0.256604224,4.3079257E-05,-0.966517091",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2020a339-a27c-4783-83df-45cc19537393"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "f8e5189d-4254-4900-9700-e45d91ef854c"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2020a339-a27c-4783-83df-45cc19537393",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "finger_ring_2_R",
+              "Position": "1.53517723,-1.8119812E-05,-1.90734863E-05",
+              "Rotation": "-3.27825546E-07,-0.0503718257,4.02331352E-07,-0.998731077",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "07988655-e52e-432e-95c6-78a22b5b85b4"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "0840ccc0-3de7-4f79-9fb8-4bf08ddcb7d2"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "07988655-e52e-432e-95c6-78a22b5b85b4",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_lower_R_twist1",
+              "Position": "3.85334015,-3.0040741E-05,-1.90734863E-06",
+              "Rotation": "-0.0174034834,0,0,-0.999848723",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2ea08963-03c7-43af-b9c0-bdc2697e9e43"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "39f0f036-a8d6-4b41-bc29-da0f09bd772e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "a6ee936c-e3a1-4787-987d-d2aee4ce75ff"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2ea08963-03c7-43af-b9c0-bdc2697e9e43",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_R_twist1",
+              "Position": "5.02267075,-2.19345093E-05,5.7220459E-06",
+              "Rotation": "-0.00937977433,-2.98023224E-08,-5.96046448E-08,-0.99995631",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "fa1bed1b-a31c-4f69-9e94-c4d4db52c0f0"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "39f0f036-a8d6-4b41-bc29-da0f09bd772e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "2ea08963-03c7-43af-b9c0-bdc2697e9e43"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "fa1bed1b-a31c-4f69-9e94-c4d4db52c0f0",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "arm_upper_R_twist0",
+              "Position": "3.81469727E-06,2.00271606E-05,1.52587891E-05",
+              "Rotation": "-0.0609306693,0,0,-0.998142242",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "82a50171-548b-4173-9f63-cef891b7bd05"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "69872a48-21ca-42a5-9ca5-7da33816581d"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "ffd18016-3bd4-4387-95a7-640d3132317d"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "82a50171-548b-4173-9f63-cef891b7bd05",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "neck_clothing",
+              "Position": "5.8200264,-0.0934925079,-0.00293731689",
+              "Rotation": "8.82148743E-06,-0.000214084983,0.0129665881,-0.999916136",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "6e475d43-a2db-4c72-a681-39e9a31506d1"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2b742e78-94ab-4787-be59-408a33f359b3",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_R",
+              "Position": "-0.288146973,-0.426447868,-4.42739677",
+              "Rotation": "0.0158609897,0.99831754,-0.0526515245,0.0183947086",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "e70c3a38-ce27-4f90-8363-6447c3a1f6be",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_R",
+              "Position": "14.4704056,-2.05039978E-05,1.90734863E-05",
+              "Rotation": "-2.98023224E-08,0,0.174034745,-0.984739423",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "8fdb244a-bb86-4017-a11c-cd32f17a5d25"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "8fdb244a-bb86-4017-a11c-cd32f17a5d25",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ankle_R",
+              "Position": "12.5155315,3.33786011E-06,1.43051147E-06",
+              "Rotation": "-0.0325998142,0.00899454951,-0.465379715,-0.884464741",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3371497f-4705-480b-bc50-5cf799696c6d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "8fdb244a-bb86-4017-a11c-cd32f17a5d25"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3371497f-4705-480b-bc50-5cf799696c6d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ball_R",
+              "Position": "4.42912054,-6.19888306E-06,-1.90734863E-06",
+              "Rotation": "4.32133675E-07,-9.83476639E-07,-0.390540123,-0.920586228",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d1460759-1512-4167-b781-171411effc25"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "8fdb244a-bb86-4017-a11c-cd32f17a5d25"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "d1460759-1512-4167-b781-171411effc25",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_R_twist0",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "0d924a39-7801-40b4-8dfb-a490225ea7e5"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "d1460759-1512-4167-b781-171411effc25"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "0d924a39-7801-40b4-8dfb-a490225ea7e5",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_R_twist1",
+              "Position": "6.25782394,-3.55243683E-05,1.8119812E-05",
+              "Rotation": "-0.0220938921,-2.98023224E-08,0,-0.999756098",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "1a0cf2c8-f781-40e2-893f-f3659d45fe6d"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "0d924a39-7801-40b4-8dfb-a490225ea7e5"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "1a0cf2c8-f781-40e2-893f-f3659d45fe6d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_knee_helper_R",
+              "Position": "-0.00666999817,0.0514452457,-1.23977661E-05",
+              "Rotation": "0.000219055917,0.00011998415,-0.744387865,-0.667747855",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d3569e11-d970-4254-b674-378f31ab1fd6"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "e70c3a38-ce27-4f90-8363-6447c3a1f6be"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "d3569e11-d970-4254-b674-378f31ab1fd6",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_R_twist1",
+              "Position": "7.23581123,-3.71932983E-05,1.90734863E-06",
+              "Rotation": "0.0052690804,0,0,-0.999985993",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2e4b0dfd-1756-412e-b797-e6daeee71da7"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "d3569e11-d970-4254-b674-378f31ab1fd6"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2e4b0dfd-1756-412e-b797-e6daeee71da7",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_R_twist0",
+              "Position": "-1.90734863E-06,0,-9.53674316E-06",
+              "Rotation": "0.0342427641,0,0,-0.99941355",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d029a922-d483-43f2-9974-808ae5c5890f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "2e4b0dfd-1756-412e-b797-e6daeee71da7"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "d029a922-d483-43f2-9974-808ae5c5890f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_glute_helper_R",
+              "Position": "0,0,0",
+              "Rotation": "-1.22189522E-06,-6.66851236E-07,-0.707105279,0.707108021",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "2b742e78-94ab-4787-be59-408a33f359b3"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_L",
+              "Position": "-0.288122177,-0.426431656,4.42735863",
+              "Rotation": "-0.00788217783,0.998412609,0.0555791408,0.00457493961",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "91cc39ad-27e7-4542-85ce-04e93387bc94",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_L",
+              "Position": "14.4703531,-4.00543213E-05,-3.9100647E-05",
+              "Rotation": "-4.47034836E-08,-2.83122063E-07,0.124874592,-0.99217236",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "a9120397-d729-4dfe-beaf-f817e8a7a476"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "a9120397-d729-4dfe-beaf-f817e8a7a476",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ankle_L",
+              "Position": "12.515522,1.62124634E-05,-1.23977661E-05",
+              "Rotation": "0.0297856033,-0.00954928994,-0.441061884,-0.896931469",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "34b11bda-1fc8-457d-8f15-f8007d20b256"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "a9120397-d729-4dfe-beaf-f817e8a7a476"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "34b11bda-1fc8-457d-8f15-f8007d20b256",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ball_L",
+              "Position": "4.42913914,-1.90734863E-06,-1.90734863E-06",
+              "Rotation": "-3.28756869E-07,5.96046448E-07,0.390712202,0.920512617",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "0fecf9a7-7579-402f-84bc-c107376dd43f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "a9120397-d729-4dfe-beaf-f817e8a7a476"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "0fecf9a7-7579-402f-84bc-c107376dd43f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_L_twist0",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "764d3481-54f2-415e-ac75-9dcaaf6db95a"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "0fecf9a7-7579-402f-84bc-c107376dd43f"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "764d3481-54f2-415e-ac75-9dcaaf6db95a",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_lower_L_twist1",
+              "Position": "6.25782681,-1.14440918E-05,1.62124634E-05",
+              "Rotation": "0.0199246109,-1.49011612E-08,-2.98023224E-08,-0.999801397",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "fb9cda50-dff8-4864-bf8e-a54d3cc04721"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "764d3481-54f2-415e-ac75-9dcaaf6db95a"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "fb9cda50-dff8-4864-bf8e-a54d3cc04721",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_knee_helper_L",
+              "Position": "-0.00227165222,0.0371789932,-3.05175781E-05",
+              "Rotation": "7.56960362E-05,-0.000130057335,0.751712501,0.659490943",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "dc1f5567-93c6-4bd6-ba73-eafa0f7799fb"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "91cc39ad-27e7-4542-85ce-04e93387bc94"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "dc1f5567-93c6-4bd6-ba73-eafa0f7799fb",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_L_twist1",
+              "Position": "7.2358017,-7.05718994E-05,-2.0980835E-05",
+              "Rotation": "-0.00555084646,0,1.49011612E-08,-0.999984622",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "3d15e470-0099-48ce-9b1e-76596a2507e0"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "dc1f5567-93c6-4bd6-ba73-eafa0f7799fb"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "3d15e470-0099-48ce-9b1e-76596a2507e0",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_upper_L_twist0",
+              "Position": "-1.90734863E-05,7.62939453E-06,-1.90734863E-05",
+              "Rotation": "-0.0361108929,1.49011612E-08,0,-0.999347746",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "22b53768-68a8-434f-9252-ca8cd3127115"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "2c6f26bc-08ba-4952-a88f-31a9aa87d65e"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "3d15e470-0099-48ce-9b1e-76596a2507e0"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "22b53768-68a8-434f-9252-ca8cd3127115",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "leg_glute_helper_L",
+              "Position": "0,0,0",
+              "Rotation": "-1.07288361E-06,-8.20756043E-07,-0.707105637,0.707107902",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "940e08ab-0db8-4ffc-9de0-59b1bebd978c"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "c34ab177-abe3-42e9-b534-9ee5c92c1c4e"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "c68b2746-5b97-49e8-a035-a8dd5d65033a",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "root_IK",
+              "Position": "1.18066406,6.91413879E-06,1.49607658E-05",
+              "Rotation": "0,0,-5.80705375E-07,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d6236731-b7cf-40e5-bc2a-76436a9e9065"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "d6236731-b7cf-40e5-bc2a-76436a9e9065",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_R_IK_target",
+              "Position": "-2.71962404,-11.3581524,33.2663422",
+              "Rotation": "0.458261937,0.351303846,-0.607508719,0.545449197",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "0462b450-ea91-42a4-bc8a-5ef17656186f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "d6236731-b7cf-40e5-bc2a-76436a9e9065"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "0462b450-ea91-42a4-bc8a-5ef17656186f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "hand_L_IK_target",
+              "Position": "-2.71951628,11.3580599,33.2663498",
+              "Rotation": "0.545449853,0.607507706,-0.35130313,0.458263516",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "54559486-7cfd-4dd3-be9e-354d4fb812ea"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "0462b450-ea91-42a4-bc8a-5ef17656186f"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "54559486-7cfd-4dd3-be9e-354d4fb812ea",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "aim_matrix_02a",
+              "Position": "4.63892555,8.24651579E-07,9.84249973",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "04e662f0-0684-4f88-a451-c1657fd5f25f"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "54559486-7cfd-4dd3-be9e-354d4fb812ea"
+            },
+            "PreviousElement": null,
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "04e662f0-0684-4f88-a451-c1657fd5f25f",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "aim_matrix_02b",
+              "Position": "3.93700123,-4.82249334E-07,1.2984608E-06",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "29af3f99-8535-4385-8098-ae66d1ca9b31"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "54559486-7cfd-4dd3-be9e-354d4fb812ea"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "29af3f99-8535-4385-8098-ae66d1ca9b31",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "aim_matrix_01",
+              "Position": "4.63892555,8.24651579E-07,11.8109999",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "5116708d-a40c-43bf-8568-b4e5d79cd802"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "29af3f99-8535-4385-8098-ae66d1ca9b31"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "5116708d-a40c-43bf-8568-b4e5d79cd802",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "foot_R_IK_target",
+              "Position": "-0.773421049,-4.40219402,3.80781841",
+              "Rotation": "0.672557354,0.21836184,-0.331837386,0.624394894",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "6c9fd622-3330-48f6-a2c2-78bd160c275c"
+            },
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "c68b2746-5b97-49e8-a035-a8dd5d65033a"
+            },
+            "PreviousElement": {
+              "Type": "GameObject",
+              "IdValue": "5116708d-a40c-43bf-8568-b4e5d79cd802"
+            },
+            "ContainerProperty": "Children",
+            "IsContainerArray": true,
+            "Data": {
+              "__guid": "6c9fd622-3330-48f6-a2c2-78bd160c275c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "foot_L_IK_target",
+              "Position": "-0.769590974,4.40287685,3.80613017",
+              "Rotation": "0.624310255,0.331923664,-0.218491465,0.672551274",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [],
+              "Children": []
+            }
+          }
+        ],
         "RemovedObjects": [],
         "PropertyOverrides": [
           {
@@ -169,10 +3369,77 @@
               "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
             },
             "Property": "Position",
-            "Value": "-0.550994873,-3.34942627,3.7564683"
+            "Value": "-0.550994873,-3.34942627,0.237430573"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
+            },
+            "Property": "Tags",
+            "Value": "player"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
+            },
+            "Property": "Enabled",
+            "Value": false
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "0920ff4d-cd10-4a8f-9bf4-78e5f2d93f9e"
+            },
+            "Property": "Clothing",
+            "Value": [
+              {
+                "Clothing": "models/citizen_clothes/vest/chefs_apron/chefs_apron.clothing"
+              },
+              {
+                "Clothing": "models/citizen_clothes/trousers/cargopants/brown_cargo_pants.clothing"
+              },
+              {
+                "Clothing": "models/citizen_clothes/hat/hard_hat/hard_hat.clothing"
+              }
+            ]
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "96676f34-b2e0-4a87-9328-55d9908dffbe"
+            },
+            "Property": "CameraOffset",
+            "Value": "256,30.9500389,12"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "15013315-8d33-4b86-a619-95f9ae6c159c"
+            },
+            "Property": "CreateBoneObjects",
+            "Value": true
           }
         ],
-        "MovedObjects": []
+        "MovedObjects": [
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "96676f34-b2e0-4a87-9328-55d9908dffbe"
+            },
+            "NewParent": {
+              "Type": "GameObject",
+              "IdValue": "5da3a4a3-086d-46b7-993b-281507ea8509"
+            },
+            "NewContainerProperty": "Components",
+            "IsNewContainerArray": true,
+            "NewPreviousElement": {
+              "Type": "Component",
+              "IdValue": "8421bd00-c3d3-4cd2-9799-758271bacc2c"
+            }
+          }
+        ]
       },
       "__PrefabIdToInstanceId": {
         "5da3a4a3-086d-46b7-993b-281507ea8509": "aa423286-2c3a-495f-b2d4-854b7419cd81",
@@ -194,10 +3461,10 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Camera",
-      "Position": "-43.6435089,68.838028,51.7660599",
+      "Position": "-232.317825,34.9340401,51.7660599",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
-      "Tags": "maincamera",
+      "Tags": "",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
@@ -236,6 +3503,305 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "20881a32-654f-4dac-8eff-345ce690a182",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Cube",
+      "Position": "56.5033836,120.511276,26.2675819",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "4772174e-9947-4b1f-aeb2-d1872443fe71",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Materials": null,
+          "Model": "models/dev/box.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "92a37eca-acfd-411a-a266-8836a20cb64f",
+          "__enabled": true,
+          "Flags": 0,
+          "AngularDamping": 0,
+          "EnableImpactDamage": true,
+          "EnhancedCcd": false,
+          "Gravity": true,
+          "GravityScale": 1,
+          "ImpactDamage": 0,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": false,
+            "Y": false,
+            "Z": false,
+            "Pitch": false,
+            "Yaw": false,
+            "Roll": false
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MinImpactDamageSpeed": 500,
+          "MotionEnabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "SleepThreshold": 2,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "d1b39db7-43aa-4ee0-92f9-ff557803713e",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "0,0,0",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "2dea48c4-2128-4d0a-b78b-5ba1e1abd63c",
+      "__version": 2,
+      "__Prefab": "hammer.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69855b6-e8bc-4ede-93bc-bf059c38ad13"
+            },
+            "Property": "Position",
+            "Value": "37.5805817,9.80451965,25"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69855b6-e8bc-4ede-93bc-bf059c38ad13"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,0,0.99999994"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69855b6-e8bc-4ede-93bc-bf059c38ad13"
+            },
+            "Property": "NetworkMode",
+            "Value": 1
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "8c533114-2aa0-4428-99ff-cc2520a28780"
+            },
+            "Property": "Center",
+            "Value": "0,0,2.35144424"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "8c533114-2aa0-4428-99ff-cc2520a28780"
+            },
+            "Property": "Scale",
+            "Value": "11.5,5,24.7028885"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "f69855b6-e8bc-4ede-93bc-bf059c38ad13": "2dea48c4-2128-4d0a-b78b-5ba1e1abd63c",
+        "c7d4da31-2dfc-4e03-be8b-b16ad8a53db5": "c9fae4c1-678e-4ab7-9f70-8dfeb40f460a",
+        "e5401cd2-8c34-40e8-abe3-de27f7dea5d0": "26d9024c-07f4-4ae6-86fa-8abd09d07310",
+        "2cbc11d0-e82a-41e9-8bbd-34cd21ffa8b4": "2b637af3-8bc4-4621-bf02-465b486a47ab",
+        "1fa94a5a-40de-4a57-b50d-39a2bf9a692b": "8d3d25ea-cc20-4533-a752-379b55f0384b",
+        "20b1bf15-acf9-4b16-a653-f34f109dba28": "41c3c6d6-c600-8115-95c3-e1c075af18be",
+        "6a2eb3d3-bd29-4be1-a7bf-682191f29f8d": "7072948f-95fe-8822-bf29-4190d2d73ea6",
+        "8c533114-2aa0-4428-99ff-cc2520a28780": "2879078d-427d-8bac-94ff-69a9622e3880"
+      }
+    },
+    {
+      "__guid": "5083de81-7e5f-4c4b-bc80-e5028d3427c1",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Network Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.GameNetworkManager",
+          "__guid": "68a101e5-78c2-4fce-b100-fcbe2da39263",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PlayerPrefab": {
+            "_type": "gameobject",
+            "go": "aa423286-2c3a-495f-b2d4-854b7419cd81"
+          },
+          "SpawnPoint": {
+            "_type": "gameobject",
+            "go": "0bef9811-7c91-4759-9087-b360a0270907"
+          }
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "71d9ecf5-ea31-4e5d-b1b7-a08ed07ebc1f",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Network Session",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "NetworkSession",
+          "__guid": "6049a1a9-4b1a-40f2-88f0-208d6f7e2a80",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "c2f57438-2474-4b42-9a58-292609766c55",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Game Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "GameManager",
+          "__guid": "ce65cbb3-9dc3-4b82-8378-a0c31194f70e",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "ce56ea22-d46c-4828-8402-23095894c52a",
+      "__version": 2,
+      "__Prefab": "ingot.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "3389a499-5342-4258-a2fa-e1c584b22ab5"
+            },
+            "Property": "Position",
+            "Value": "164.508804,-3.68463898,7.37784386"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "3389a499-5342-4258-a2fa-e1c584b22ab5": "ce56ea22-d46c-4828-8402-23095894c52a",
+        "e25fce0b-1dd2-4273-bbeb-5e8c706726d4": "581d4b0d-1d38-4789-b79d-0daacb7bef37",
+        "2d601695-6551-4d0e-8fba-a5624fc5a9ec": "7ea4f136-ae90-4644-8af9-0f52b8f470cb",
+        "4b85aecc-498a-48fc-9574-63acf5040c2d": "ddf16acf-01cc-45f7-ab54-bba9c878cd28",
+        "5e529740-d7c4-4c6c-8ab8-96cff50c61a7": "b15819ba-f4f2-4dfe-a0ea-aefbcac60995",
+        "e6e7e197-3621-461d-98f8-b2bc02a7935f": "c9f8f5e5-f317-8bd0-90da-90c5eefb7cd1",
+        "58854091-2c2d-43c5-8cdd-736c04be028b": "14ea49c6-39ea-8540-9bca-ee8c560e2a55"
+      }
     }
   ],
   "SceneProperties": {

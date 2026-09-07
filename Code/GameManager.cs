@@ -1,6 +1,6 @@
 using Sandbox;
 
-public sealed class MyComponent : Component
+public sealed class GameManager : Component
 {
 	protected override void OnUpdate()
 	{
