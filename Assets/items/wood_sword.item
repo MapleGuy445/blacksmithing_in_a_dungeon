@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "name": "Wooden Sword",
+  "description": "Its basically a stick...",
+  "icon": null,
+  "heldPrefab": null,
+  "holdType": "None",
+  "maxStack": 1,
+  "damage": 0,
+  "attackSpeed": 0,
+  "__references": [],
+  "__version": 0
+}

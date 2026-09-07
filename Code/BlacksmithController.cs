@@ -9,6 +9,7 @@ public sealed class BlacksmithController : Component
 	[Property] public GameObject Body { get; set; }
 	[Property] public GameObject HoldRelative { get; set; }
 	[Property] public GameObject HoldRotationTarget { get; set; }
+	[Property][Sync] private ItemInstance[] slots { get; set; }
 	GameObject Carrying { get; set; }
 
 	protected override void OnUpdate()
