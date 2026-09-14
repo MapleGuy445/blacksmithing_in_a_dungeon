@@ -1,10 +1,11 @@
 using System.Diagnostics;
 using Sandbox;
+using static Sandbox.ModelRenderer;
 
 [Icon("directions_walk")]
 [EditorHandle(Icon = "directions_walk")]
 [Title("Blacksmith Controller")]
-public sealed class BlacksmithController : Component
+public sealed class BlacksmithController : Component, PlayerController.IEvents
 {
 	[Property] public GameObject Body { get; set; }
 	[Property] public GameObject HoldRelative { get; set; }
@@ -12,12 +13,24 @@ public sealed class BlacksmithController : Component
 	[Property][Sync] private ItemInstance[] slots { get; set; }
 	GameObject Carrying { get; set; }
 
+	PlayerController playerController;
+
+	protected override void OnStart() {
+		playerController = GameObject.GetComponent<PlayerController>();
+	}
+
+	public void PostCameraSetup( CameraComponent cam )
+	{
+		
+	}
+
 	protected override void OnUpdate()
 	{
 		if ( IsProxy )
 			return;
 
 		UpdatePickup();
+		UpdatePerspective();
 	}
 
 	protected override void OnPreRender()
@@ -30,6 +43,21 @@ public sealed class BlacksmithController : Component
 
 			Carrying.WorldPosition = HoldRelative.WorldPosition + HoldRelative.Parent.WorldRotation * offset;
 			Carrying.WorldRotation = HoldRotationTarget.WorldRotation;
+		}
+	}
+
+
+	void UpdatePerspective()
+	{
+		IEnumerable<GameObject> children = Body.GetAllObjects(true);
+		foreach (var obj in children)
+		{
+			obj.Tags.Set( "viewer", true );
+			ModelRenderer mr = obj.GetComponent<ModelRenderer>();
+			if ( mr.IsValid() )
+			{
+				mr.SceneObject.Flags.ExcludeGameLayer = !playerController.ThirdPerson;
+			}
 		}
 	}
 
